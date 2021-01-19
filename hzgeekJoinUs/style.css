@@ -1,12 +1,12 @@
 @font-face {
     font-family: "HYYakuHei-75W";
-    src: url('./HYYakuHei-75W.woff') format('woff'), url('./HYYakuHei-75W.ttf') format('truetype');
+    src: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYYakuHei-75W.woff') format('woff'), url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYYakuHei-75W.ttf') format('truetype');
     font-display: fallback;
 }
 
 @font-face {
     font-family: "HYZhongHeiJ";
-    src: url('./HYZhongHeiJ.ttf') format('truetype');
+    src: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYZhongHeiJ.ttf') format('truetype');
     font-display: fallback;
 }
 
@@ -25,7 +25,7 @@
 }
 
 body {
-    background-image: url(./background.jpg);
+    background-image: url(//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -44,6 +44,7 @@ button {
 }
 
 .fadein {
+    display: none;
     font-family: "HYYakuHei-75W";
     color: white;
     -webkit-text-size-adjust: none;
