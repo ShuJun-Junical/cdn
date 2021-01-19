@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "HYYakuHei-75W";
+    src: url('./HYYakuHei-75W.woff') format('woff'), url('./HYYakuHei-75W.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "HYZhongHeiJ";
+    src: url('./HYZhongHeiJ.ttf') format('truetype');
+    font-display: fallback;
+}
+
+@media (min-width: 1023.9px) {
+    .fadein {
+        margin: 2vh 2vh 0vh 2vh;
+        font-size: 2.5vmin;
+    }
+}
+
+@media (max-width: 1024px) {
+    .fadein {
+        margin: 2vh 2vh 0vh 2vh;
+        font-size: 3.4vmin;
+    }
+}
+
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main {
+    top: 10vh;
+    height: 80vh;
+}
+
+button {
+    background-color: cornflowerblue;
+    padding: 1.3vh 2.5vh;
+    border: none;
+}
+
+.fadein {
+    font-family: "HYYakuHei-75W";
+    color: white;
+    -webkit-text-size-adjust: none;
+}
+
+img {
+    max-width: 42vw;
+    max-height: 8vh;
+}
+
+.headlogo {
+    margin: 3vh 3vh 8vh 3vh;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px #000;
+}
