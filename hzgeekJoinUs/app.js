@@ -8,6 +8,6 @@ for (var i of $(".fadein")) {
 }
 particlesJS.load('particles-js', './particles.json', function() {});
 btn = $("button")[0]
-btn.onclick = () => { alert('1') }
+btn.onclick = () => { window.location.href = "https://cdn.jsdelivr.net/gh/JupiterJun/picture/JupiterJun's_QQ.jpg" }
 btn.onmouseover = () => { btn.classList.add('shadow'); }
 btn.onmouseout = () => { btn.classList.remove('shadow'); }
