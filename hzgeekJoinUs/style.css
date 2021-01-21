@@ -1,12 +1,12 @@
 @font-face {
     font-family: "HYYakuHei-75W";
-    src: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYYakuHei-75W.woff') format('woff'), url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYYakuHei-75W.ttf') format('truetype');
+    src: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYYakuHei-75W.min.woff') format('woff'), url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYYakuHei-75W.min.ttf') format('truetype');
     font-display: fallback;
 }
 
 @font-face {
     font-family: "HYZhongHeiJ";
-    src: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYZhongHeiJ.ttf') format('truetype');
+    src: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/hzgeekJoinUs/HYZhongHeiJ.min.ttf') format('truetype');
     font-display: fallback;
 }
 
