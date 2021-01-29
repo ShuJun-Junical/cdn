@@ -1,4 +1,9 @@
-var $ = mdui.$;
+$(function () {
+    setTimeout(() => {
+        var inst = new mdui.Dialog('#eulaDialog',);
+        inst.open();
+    }, "1500");
+})
 
 function verified() {
     onlyCode = document.getElementById("olcd").value;

@@ -1,0 +1,7 @@
+body {
+    min-height: 100%;
+    background-image: url('//cdn.jsdelivr.net/gh/JupiterJun/cdn/XKTemperature/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -5,8 +5,10 @@ async function submit() {
     pswd = $("#pswd").val();
     address = $("#address").val();
     dormitory = $("#dormitory").val();
+    var eula = $("#eula").is(":checked");
     dingGroup = new mdui.Dialog("#ding",);
     if (!phone || !pswd || !address || !dormitory) return mdui.snackbar("请将信息填写完整",);
+    if (!eula) return mdui.snackbar("请先同意许可协议",);
     stuInfo = await login(phone, pswd);
     var confirmDialog = new mdui.Dialog("#confirmInfo",);
     var added = await phoneIsAddded(phone)
@@ -25,7 +27,7 @@ async function submit() {
     <li>家庭成员是否发热异常：否</li>
     <li>本人及家属是否去过中高风险地区：否</li>
     <li>本人及家属是否接触过及其从国外入境人员：否</li>`
-    document.getElementById('confirmList').innerHTML = confirmList;
+    $("#confirmList").html(confirmList);
     confirmDialog.open();
 }
 
